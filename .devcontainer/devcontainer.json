@@ -1,0 +1,25 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"features": {
+    
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/git-lfs:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/go:1": {},
+		"ghcr.io/devcontainers/features/aws-cli:1": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/terraform:1": {},
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"configureZshAsDefaultShell": true
+		},
+    "ghcr.io/guiyomh/features/golangci-lint:0": {},
+		"ghcr.io/guiyomh/features/gomarkdoc:0": {},
+    "ghcr.io/guiyomh/features/vim:0": {},
+		"ghcr.io/devcontainers-contrib/features/terraform-ls-asdf:2": {},
+		"ghcr.io/devcontainers-contrib/features/terrascan:1": {},
+    "ghcr.io/devcontainers-contrib/features/tfswitch:1": {},
+		"ghcr.io/eitsupi/devcontainer-features/jq-likes:1": {},
+    "ghcr.io/saml-to/devcontainer-features/assume-aws-role:1": {},
+		"ghcr.io/jungaretti/features/make:1": {}
+	}
+}
